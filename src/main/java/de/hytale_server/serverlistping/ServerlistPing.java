@@ -3,7 +3,6 @@ package de.hytale_server.serverlistping;
 import com.hypixel.hytale.server.core.plugin.JavaPlugin;
 import com.hypixel.hytale.server.core.plugin.JavaPluginInit;
 import com.hypixel.hytale.server.core.util.Config;
-import org.checkerframework.checker.nullness.qual.NonNull;
 
 import java.io.IOException;
 import java.util.logging.Level;
@@ -13,7 +12,7 @@ public class ServerlistPing extends JavaPlugin {
     private final Config<StatusConfig> statusConfig = withConfig(StatusConfig.CODEC);
     private StatusQueryServer queryServer;
 
-    public ServerlistPing(@NonNull JavaPluginInit init) {
+    public ServerlistPing(JavaPluginInit init) {
         super(init);
     }
 

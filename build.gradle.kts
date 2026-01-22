@@ -12,10 +12,6 @@ repositories {
 
 dependencies {
     compileOnly(files("libs/HytaleServer.jar"))
-
-    // 3. Testing
-    implementation("com.google.guava:guava:33.0.0-jre")
-    testImplementation("org.junit.jupiter:junit-jupiter:5.10.1")
 }
 
 java {
