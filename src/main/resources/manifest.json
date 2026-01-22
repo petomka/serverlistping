@@ -1,0 +1,16 @@
+{
+  "Group": "HytaleServerDE",
+  "Name": "ServerlistPing",
+  "Version": "${version}",
+  "Description": "This plugin opens a TCP server to handle pings from server lists and responds with current player count and maximum player count",
+  "Authors": [
+    {
+      "Name": "mainframe"
+    }
+  ],
+  "Main": "de.hytale_server.serverlistping.ServerlistPing",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "IncludesAssetPack": false,
+  "DisabledByDefault": false
+}
